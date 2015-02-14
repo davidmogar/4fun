@@ -1,0 +1,21 @@
+{
+  "servers" : {
+    "rest": {
+      "messages": {
+        "listening": "Rest server listening on port %d"
+      }, 
+      "port": 3000
+    },
+    "ws": {
+      "messages": {
+        "listening": "Websocket server listening on port %d",
+        "onClose": "Websocket client disconnection from %s",
+        "onConnection": "Websocket client connection from %s",
+        "onError": "Websocket error caused by %s. Error message: %s"
+      },
+      "options": {
+        "port": 3001
+      }
+    }
+  }
+}

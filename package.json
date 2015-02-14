@@ -2,7 +2,7 @@
   "name": "4fun",
   "version": "0.0.1",
   "description": "Simple nodejs chat",
-  "main": "server.js",
+  "main": "4fun.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,10 @@
   },
   "dependencies": {
     "restify": "~2.8.5",
-    "ws": "~0.7.1"
+    "ws": "~0.7.1",
+    "rand-token": "~0.2.1",
+    "soap": "~0.7.0",
+    "config": "~1.11.0",
+    "winston": "~0.9.0"
   }
 }
