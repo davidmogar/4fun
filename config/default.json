@@ -1,4 +1,8 @@
 {
+  "messages" {
+    "invalidDirection": "That is not a valid direction. Directions supported are 'down', 'left', 'right', 'up'",
+    "invalidToken": "Token is invalid or has expired"
+  },
   "servers" : {
     "rest": {
       "messages": {

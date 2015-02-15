@@ -1,26 +1,25 @@
 {
-  "name": "4fun",
+  "name": "4fun-server",
   "version": "0.0.1",
   "description": "Simple nodejs chat",
-  "main": "4fun.js",
+  "main": "4fun-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidmogar/4fun.git"
+    "url": "https://github.com/davidmogar/4fun-server.git"
   },
   "keywords": [
     "nodejs",
     "chat",
     "rest",
-    "soap",
     "websockets"
   ],
   "author": "David Moreno García",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidmogar/4fun/issues"
+    "url": "https://github.com/davidmogar/4fun-server/issues"
   },
   "dependencies": {
     "restify": "~2.8.5",
